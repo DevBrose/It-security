@@ -19,6 +19,7 @@ header {
 .logo-header {
     font-size: 72px; 
     transform: translateX(65px);
+    text-shadow: 2px 2px white;
 }
 
 .menu {
@@ -37,24 +38,41 @@ header {
     list-style: none;
 }
 
-.submit {
+.button {
     width: 140px; 
     height: 40px; 
     border-radius: 20px;
     border: none;
     background-color: #195dc4c9;
+    box-shadow: 1px 1px white;
   }
   
-.submit:hover {
+.button:hover {
     opacity: 0.5;
   }
 
+.motto {
+    text-align: center; /*maybe cursive*/
+}
+
 .container {
-    max-width: 1400px; 
+    max-width: 1440px; 
     width: 100%;
     min-height: 700px;
-    margin: 20px;
-    background-color: lightgrey; /*just for now*/
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(248, 248, 248); /*just for now*/
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 1240px;
+    height: 500px;
+    background-color: #A9AABC;
+    border: solid 1px grey;
+    margin: 10px;
 }
 
 footer {
@@ -70,5 +88,6 @@ footer {
     font-size: 40px; 
     font-weight: bold;
     transform: translateX(65px);
+    text-shadow: 1px 1px white;
 }
 
