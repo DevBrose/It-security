@@ -40,3 +40,15 @@ header {
     min-height: 700px;
     background-color: lightgrey; /*just for now*/
 }
+
+.submit {
+    width: 140px; 
+    height: 40px; 
+    border-radius: 20px;
+    border: none;
+    background-color: turquoise;
+  }
+  
+  .submit:hover {
+    opacity: 0.5;
+  }
