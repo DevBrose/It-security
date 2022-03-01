@@ -100,7 +100,7 @@ header {
 
 .grid__image 
 
-footer {
+.footer {
     max-width: 1440px;
     width: 100%;
     min-height: 125px;
@@ -115,7 +115,6 @@ footer {
     transform: translateX(65px);
     text-shadow: 1px 1px white;
 }
-
 
 a {
     text-decoration: none;
