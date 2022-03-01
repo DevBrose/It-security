@@ -1,7 +1,8 @@
 body {
-    max-width: 1440px;
+    max-width: 1440px; 
     width: 100%;
     font-family: 'Montserrat', sans-serif;
+    color: #444655;
 }
 
 main {
@@ -58,44 +59,28 @@ header {
 
 .motto {
     text-align: center; /*maybe cursive. no*/
-/*    font-style: italic; */   
-    font-size: 40px;
+/*    font-style: italic; */    
 }
 
 .container {
     max-width: 1440px; 
     width: 100%;
-    min-height: 500px;
+    min-height: 700px;
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: rgb(248, 248, 248); /*just for now*/
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
 .card {
-    width: 500px;
-    height: 400px;
+    width: 600px;
+    border: solid black;
+    height: 500px;
+    background-color: #A9AABC;
+    border: solid 1px grey;
     margin: 10px;
-}
-
-.card__headline { 
-    font-size: 30px;
-    font-family: "montserrat", sans-serif;
-}
-
-.card__info {
-    font-family: "montserrat", sans-serif;
-}
-
-
-.image01 {
-    width: 423px;
-}
-
-.image02 { 
-    width: 423px;
 }
 
 footer {
@@ -114,6 +99,7 @@ footer {
     text-shadow: 1px 1px white;
 }
 
+
 a {
     text-decoration: none;
 }
@@ -121,3 +107,4 @@ a {
 a:hover {
     opacity: 80%;
 }
+
