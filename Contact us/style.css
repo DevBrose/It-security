@@ -37,7 +37,7 @@ h1 {
  
    margin-top: 10px;
  
-   display: flex;
+   margin-left: 200px;
       
 }
 	
@@ -51,11 +51,11 @@ h1 {
     
     background-repeat: no-repeat;
 
-    background-position: 430px 5px;
+    
 
    background-repeat: no-repeat;
 
-   background-size: 450px 250px;
+   
 
 }
 
