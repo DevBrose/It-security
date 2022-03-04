@@ -10,13 +10,13 @@ body {
 
 .header {
 
-    height: 80vh;
+    height: 50vh;
    
     background-color: white;
 
     margin: 0;
 
-    display: flex;
+    
 
     justify-content: space-between;
 
@@ -51,11 +51,11 @@ h1 {
     
     background-repeat: no-repeat;
 
-    background-position: 530px 5px;
+    background-position: 430px 5px;
 
    background-repeat: no-repeat;
 
-   background-size: 550px 350px;
+   background-size: 450px 250px;
 
 }
 
