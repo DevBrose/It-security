@@ -70,7 +70,7 @@ h1 {
 
     min-width: 1100px;
 
-    display: flex;
+    display: inline;
 
     justify-content: space-evenly;
 
@@ -82,7 +82,7 @@ h1 {
 
     width: 150%;
 
-    display: flex;
+    display: inline;
 
     justify-content: space-evenly;
 
