@@ -43,7 +43,7 @@ h1 {
 	
 .main {
 
-	width: 250%;
+	width: 300%;
 	
 	height: 600vh;
 		
@@ -55,7 +55,7 @@ h1 {
 
    background-repeat: no-repeat;
 
-   background-size: 500px 300px;
+   background-size: 550px 350px;
 
 }
 
@@ -90,7 +90,7 @@ h1 {
 
     flex-direction: row;
 
-    margin-top:80px;
+    margin-top:50px;
 
     margin-left: 10px;
 
