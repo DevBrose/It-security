@@ -45,17 +45,17 @@ body {
 
 	width: 300%;
 	
-	height: 600vh;
+	height: 100vh;
 		
-  align-items: center;
+        align-items: center;
     
-    background-repeat: no-repeat;
+        background-repeat: no-repeat;
 
-    background-position: 530px 5px;
+        background-position: 530px 5px;
 
-   background-repeat: no-repeat;
+        background-repeat: no-repeat;
 
-   background-size: 500px 300px;
+         background-size: 500px 300px;
 
 }
 
@@ -68,39 +68,44 @@ body {
 .navcontainer ul
 {
 
-padding: 0;
-list-style-type: none;
-text-align: center;
-width: 1200px;
+  padding: 0;
+
+  list-style-type: none;
+
+  text-align: center;
+
+  width: 1200px;
 }
 
 .navcontainer ul li { 
 
-display: inline;
+  display: inline;
 
-margin-left: 160px;
+  margin-left: 160px;
 
-margin-top: 140px;
+  margin-top: 140px;
 
-width: 1200px;
-
-
- }
-
+  width: 1200px;
+}
 .navcontainer ul li a
 {
-text-decoration: none;
-padding: .2em 1em;
-color: #fff;
-background-color: #036;
 
-width: 1200px;
+  text-decoration: none;
+
+  padding: .2em 1em;
+
+   color: #fff;
+
+  background-color: #036;
+
+  width: 1200px;
 }
 
-.navcontainer ul li a:hover
+ .navcontainer ul li a:hover
 {
-color: #fff;
-background-color: #369;
+  color: #fff;
+
+  background-color: #369;
 }
 
 
@@ -115,14 +120,6 @@ margin-top: 15px;
 margin-left: 100px;
 	
 }
-
-
-
-
-
-
-
-
 .nav {
 
     min-width: 500px;
@@ -176,37 +173,35 @@ margin-left: 100px;
 
 
 .grid-container {
-  	display: grid;
-	
-  	height: 200px;
-	
- 		 width: 600px;
 
-     margin-top: 295px;
+  display: grid;
+	
+  height: 200px;
+	
+  width: 600px;
+
+    margin-top: 295px;
     
   grid-template-columns: auto auto auto;
   
    margin-left: 480px;
  
-	 gap: 50px;
+  gap: 50px;
 	
-  	background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.8);
 
-	  padding: 10px;
+ padding: 10px;
   
 }
-
-
-
 .grid-container > div {
 	
   	background-color: rgba(255, 255, 255, 0.8);
 	
   	text-align: center;
 	
- 		 padding: 20px 0;
+        padding: 20px 0;
 
-	  font-size: 30px;
+	 font-size: 30px;
 }
 
 
@@ -262,7 +257,7 @@ margin-left: 100px;
  
   	padding: 0px;
  
-   text-decoration: none;
+      text-decoration: none;
   
  
     border-radius: 2px;
@@ -306,5 +301,3 @@ margin-left: 100px;
   padding: 10px;
   
 }
-
-
