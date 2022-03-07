@@ -1,6 +1,8 @@
 body {
     max-width: 1440px;
     width: 100%;
+    margin: auto;
+    min-height: 100vh;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -20,10 +22,6 @@ header {
     transform: translateX(65px);
     text-shadow: 2px 2px white;
 }
-
-/*.logo-header__dot {
-    color: #195cc4;
-}*/
 
 .menu {
     display: flex;
@@ -57,8 +55,7 @@ header {
   }
 
 .motto {
-    text-align: center; /*maybe cursive. no*/
-/*    font-style: italic; */   
+    text-align: center; 
     font-size: 40px;
 }
 
