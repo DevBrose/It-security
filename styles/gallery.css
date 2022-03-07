@@ -58,31 +58,8 @@ header {
   }
 
 .motto {
-    text-align: center; /*maybe cursive. no*/
-/*    font-style: italic; */    
+    text-align: center;   
 }
-
-/*.container {
-    max-width: 1440px; 
-    width: 100%;
-    min-height: 700px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background-color: rgb(248, 248, 248); 
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-} 
-
-.card {
-    width: 600px;
-    border: solid black;
-    height: 500px;
-    background-color: #A9AABC;
-    border: solid 1px grey;
-    margin: 10px;
-} */
-
 
 .grid {
     display: flex;
@@ -98,7 +75,11 @@ header {
     min-height: 100vh;
 }
 
-.grid__image 
+.grid__image {
+    width: 600px; 
+    height: 350px; 
+    overflow: hidden;
+}
 
 .footer {
     max-width: 1440px;
@@ -118,9 +99,13 @@ header {
 
 a {
     text-decoration: none;
+    color: white; 
+}
+
+a:after {
+    text-decoration: none;
 }
 
 a:hover {
     opacity: 80%;
 }
-
