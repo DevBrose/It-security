@@ -1,4 +1,4 @@
-.body {
+body {
     max-width:1440px;
     width:100%;
     font-family: 'Montserrat', sans-serif;
@@ -12,14 +12,14 @@
 
 
 
-.main {
+main {
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
 .header 
-@@ -25,6 +27,7 @@ header {
+/*@@ -25,6 +27,7 @@ header */{
     background-color: #195cc4;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .menu {
-@@ -25,6 +27,7 @@ header {
+/*@@ -25,6 +27,7 @@ header*/ { /*commented out to see the CSS*/
     height: 61px;
     max-width: 1440px;
     background-color: #A9AABC;
@@ -40,7 +40,7 @@
 }
 
 .menu-list {
-@@ -34,21 +37,38 @@ header {
+/*@@ -34,21 +37,38 @@ header*/ { /*commented out to see the CSS*/
     list-style: none;
 }
 
