@@ -32,7 +32,7 @@ main {
 }
 
 .menu {
-/*@@ -25,6 +27,7 @@ header*/ { /*commented out to see the CSS*/
+/*@@ -25,6 +27,7 @@ header - commented out to see the CSS*/
     height: 61px;
     max-width: 1440px;
     background-color: #A9AABC;
@@ -40,7 +40,7 @@ main {
 }
 
 .menu-list {
-/*@@ -34,21 +37,38 @@ header*/ { /*commented out to see the CSS*/
+/*@@ -34,21 +37,38 @@ header - commented out to see the CSS*/
     list-style: none;
 }
 
