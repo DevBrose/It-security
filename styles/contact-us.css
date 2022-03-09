@@ -1,20 +1,14 @@
 body {
-    max-width: 1440px; 
-    margin: auto;
+    max-width: 1440px;
     width: 100%;
+    margin: auto;
     min-height: 100vh;
     font-family: 'Montserrat', sans-serif;
-    color: #444655;
 }
 
 main {
     display: flex;
     flex-direction: column;
-}
-
-body {
-
-    font-family: 'Poppins', sans-serif;
 }
 
 header {
@@ -35,7 +29,6 @@ header {
     height: 61px;
     max-width: 1440px;
     background-color: #195cc4;
-/*    transform: translateY(10px) */
 }
 
 .menu-list {
@@ -58,6 +51,11 @@ header {
   
 .button:hover {
     opacity: 80%;
+}
+
+.motto {
+    text-align: center; 
+    font-size: 40px;
 }
 
 a {

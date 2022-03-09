@@ -1,25 +1,66 @@
 body {
-    max-width:1440px;
-    width:100%;
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+    min-height: 100vh;
     font-family: 'Montserrat', sans-serif;
-    font-weight: normal;
-    color:#444655;
-    line-height: 29px;
-
-
-
 }
-
-
 
 main {
     display: flex;
-    justify-content: center;
     flex-direction: column;
 }
 
+header {
+    width: 100%;
+    height: 240px;
+    background-color: #A9AABC;
+}
+
+.logo-header {
+    font-size: 72px; 
+    transform: translateX(65px);
+    text-shadow: 2px 2px white;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    height: 61px;
+    max-width: 1440px;
+    background-color: #195cc4;
+}
+
+.menu-list {
+    display: flex;
+    gap: 50px;
+    width: 100%;
+    list-style: none;
+}
+
+.button {
+    width: 140px; 
+    height: 40px; 
+    border-radius: 20px;
+    color: white;
+    font-family: "montserrat", sans-serif;
+    border: none;
+    background-color: #444655;
+    box-shadow: 1px 1px white;
+}
+  
+.button:hover {
+    opacity: 80%;
+}
+
+.motto {
+    text-align: center; 
+    font-size: 40px;
+}
+
+/*
 .header 
-/*@@ -25,6 +27,7 @@ header */{
+@@ -25,6 +27,7 @@ header {
     background-color: #195cc4;
 }
 
@@ -31,8 +72,9 @@ main {
     transform: translateX(65px);
 }
 
+
 .menu {
-/*@@ -25,6 +27,7 @@ header - commented out to see the CSS*/
+@@ -25,6 +27,7 @@ header - commented out to see the CSS
     height: 61px;
     max-width: 1440px;
     background-color: #A9AABC;
@@ -40,9 +82,10 @@ main {
 }
 
 .menu-list {
-/*@@ -34,21 +37,38 @@ header - commented out to see the CSS*/
+@@ -34,21 +37,38 @@ header - commented out to see the CSS
     list-style: none;
 }
+*/
 
 .container {
     max-width: 1200px; 
@@ -72,7 +115,7 @@ main {
     margin: 20px;
     background-color: lightgrey; /*just for now*/
 }
-
+/*
 footer {
     max-width: 1340px;
     width: 100%;
@@ -92,6 +135,36 @@ footer {
     width:200px;
     height:100px;
     background-color: grey;
+}
+*/
+
+.footer {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 125px;
+    background-color: #A9AABC;
+    display: flex;
+    align-content: center;
+}
+
+.logo-footer {
+    font-size: 40px; 
+    font-weight: bold;
+    transform: translateX(65px);
+    text-shadow: 1px 1px white;
+}
+
+a {
+    text-decoration: none;
+    color: white; 
+}
+
+a:after {
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 80%;
 }
 
 
