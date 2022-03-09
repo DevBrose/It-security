@@ -1,44 +1,74 @@
-* {
-    padding : 0;
-    margin : 0;
-}
-
 body {
-
-    font-family: 'Poppins', sans-serif;
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.header {
+main {
+    display: flex;
+    flex-direction: column;
+}
 
-    height: 150px;
+header {
+    width: 100%;
+    height: 240px;
+    background-color: #A9AABC;
+}
 
-    width: 1500px;
-   
-    background-color: white;
+.logo-header {
+    font-size: 72px; 
+    transform: translateX(65px);
+    text-shadow: 2px 2px white;
+}
 
-    margin: 0;  
-
+.menu {
+    display: flex;
     align-items: center;
-
+    height: 61px;
+    max-width: 1440px;
+    background-color: #195cc4;
 }
 
-.headd {
-    color: blue; 
+.menu-list {
+    display: flex;
+    gap: 50px;
+    width: 100%;
+    list-style: none;
+}
 
-    font-size: 30px;
- 
-   font-weight: 300;
+.button {
+    width: 140px; 
+    height: 40px; 
+    border-radius: 20px;
+    color: white;
+    font-family: "montserrat", sans-serif;
+    border: none;
+    background-color: #444655;
+    box-shadow: 1px 1px white;
+}
+  
+.button:hover {
+    opacity: 80%;
+}
 
-    font-style: bold;
- 
-   text-align: center;
- 
-   margin-top: 5px;
+.motto {
+    text-align: center; 
+    font-size: 40px;
+}
 
-   margin-left: 250px;
+a {
+    text-decoration: none;
+    color: white; 
+}
 
-   display: relative;
-     
+a:after {
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 80%;
 }
 	
 .main {
@@ -224,11 +254,8 @@ margin-left: 100px;
 
 
 /* @keyframes imgZoom {
-
 	from {transform: scale(1) rotate(0deg);}
-
 	to {transform: scale(1.1) rotate(15deg);}
-
 } */
 
 
@@ -251,19 +278,38 @@ margin-left: 100px;
 
     bottom: 0px;
 
-	  background-color: white;
+	  background-color: white;
 	
-	  border: none;
- 
-  	padding: 0px;
- 
-      text-decoration: none;
-  
- 
-    border-radius: 2px;
+	  border: none;
+ 
+  	padding: 0px;
+ 
+      text-decoration: none;
+  
+ 
+    border-radius: 2px;
 
 }
 
+.footer {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 125px;
+    background-color: #A9AABC;
+    display: flex;
+    align-content: center;
+}
+
+.logo-footer {
+    font-size: 40px; 
+    font-weight: bold;
+    transform: translateX(65px);
+    text-shadow: 1px 1px white;
+    color: black;
+}
+
+
+/*
 .footer {
    position: fixed;
 
@@ -300,4 +346,4 @@ margin-left: 100px;
 
   padding: 10px;
   
-}
+} */
