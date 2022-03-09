@@ -29,7 +29,6 @@ header {
     height: 61px;
     max-width: 1440px;
     background-color: #195cc4;
-    transform: translateY(10px)
 }
 
 .menu-list {
@@ -48,11 +47,11 @@ header {
     border: none;
     background-color: #444655;
     box-shadow: 1px 1px white;
-  }
+}
   
 .button:hover {
     opacity: 80%;
-  }
+}
 
 .motto {
     text-align: center; 
